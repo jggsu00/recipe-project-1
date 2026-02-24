@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/hdq3csw.css");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right, #c79d42, #efcb5d);
+    font-family: "placa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#welcome {
+    padding: 20px;
+    width: 90%;
+}
+
+.container {
+    background: white;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.325);
+    width: 85.5%;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 30px 0;;
+    color: #e2c35c;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns a {
+    background: linear-gradient(to right, #c79d42, #efcb5d);
+    color: white;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.325);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.btns a:hover {
+    transform: scale(1.02);
+}
