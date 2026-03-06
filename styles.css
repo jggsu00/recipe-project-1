@@ -1,0 +1,131 @@
+@import url("https://use.typekit.net/hdq3csw.css");
+
+body {
+    font-family: "placa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    background: linear-gradient(to right, #c79d42, #efcb5d);
+    color: white;
+    font-size: 2.5rem;
+    box-shadow: 0px 0px 2px 1px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+
+    z-index: 1000;
+}
+
+#navbar a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+main {
+    padding: 6rem 3rem 3rem;
+}
+
+h1.page-title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #c79d42;
+    letter-spacing: .04em;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.recipe-card {
+    display: flex;
+    border: 3px solid #c79d42;
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 220px;
+}
+
+.card-img {
+    flex: 0 0 38%;
+    background: #fff8e7;
+    border-right: 3px solid #c79d42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #c79d42;
+    text-transform: uppercase;
+}
+
+.card-body {
+    flex: 1;
+    background: linear-gradient(135deg, #c79d42 0%, #efcb5d 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    margin-bottom: .4rem;
+}
+
+.card-desc {
+    color: rgba(255, 255, 255, .92);
+    font-size: .9rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .75rem;
+}
+
+.btn-details {
+    background: #fff;
+    color: #c79d42;
+    border: none;
+    padding: .4rem .9rem;
+    font-family: "placa", sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background .2s, color .2s;
+}
+
+.btn-details:hover {
+    background: #a07830;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .recipe-grid { grid-template-columns: 1fr; }
+    main { padding: 5rem 1rem 2rem; }
+}
