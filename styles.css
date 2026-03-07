@@ -316,62 +316,23 @@ body:has(.recipe-detail:target) #carbonara {
 
 .model-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 1.2rem;
-    perspective: 1000px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 960px;
 }
 
-.flip-card {
-    height: 260px;
-    position: relative;
-}
-
-.flip-card input[type="checkbox"] {
-    display: none;
-}
-
-.flip-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.flip-card input[type="checkbox"]:checked ~ .flip-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-front,
-.flip-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
+.method-card {
     border: 2px solid #e0c97a;
+    border-radius: 10px;
     padding: 1.2rem;
     background: #fffdf5;
 }
 
-.flip-back {
-    transform: rotateY(180deg);
-    background: linear-gradient(135deg, #c79d42, #efcb5d);
-    color: #fff;
-    border-color: transparent;
-}
-
-.flip-front h3 {
+.method-card h3 {
     font-size: 1.1rem;
     color: #c79d42;
     text-transform: uppercase;
     margin-bottom: 1rem;
-}
-
-.flip-back h3 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 0.8rem;
 }
 
 .dim-row {
@@ -410,52 +371,9 @@ body:has(.recipe-detail:target) #carbonara {
     color: #999;
 }
 
-.flip-label {
-    position: absolute;
-    inset: 0;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 10px;
-}
-
-.flip-hint {
-    font-size: 0.7rem;
-    color: #bbb;
-    text-align: center;
-    margin-top: 1rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-.flip-back .flip-hint {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.flip-back ul {
-    padding-left: 1rem;
-}
-
-.flip-back li {
-    font-size: 0.85rem;
-    margin-bottom: 0.4rem;
-    line-height: 1.4;
-}
-
 .rec-badge {
     display: inline-block;
     background: #c79d42;
-    color: #fff;
-    font-size: 0.7rem;
-    padding: 0.15rem 0.5rem;
-    border-radius: 20px;
-    margin-bottom: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-}
-
-.rec-badge-white {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.25);
     color: #fff;
     font-size: 0.7rem;
     padding: 0.15rem 0.5rem;
