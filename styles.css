@@ -149,7 +149,9 @@ main {
     display: block;
 }
 
-body:has(.recipe-detail:target) #carbonara {
+body:has(#salmon:target) #carbonara, 
+body:has(#tacos:target) #carbonara,
+body:has(#tikka:target) #carbonara {
     display: none;
 } 
 
