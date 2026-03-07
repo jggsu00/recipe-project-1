@@ -1,0 +1,108 @@
+/* ---- ABOUT PAGE ---- */
+
+/* Wraps each section and keeps it centered */
+.about-section {
+    max-width: 1100px;
+    margin: 0 auto 3rem;
+}
+
+/* Puts the two team members side by side */
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Box around each team member */
+.team-member {
+    border-left: 5px solid #efcb5d;
+    padding-left: 1.2rem;
+}
+
+/* Person's name */
+.member-name {
+    font-size: 1.3rem;
+    color: #c79d42;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+/* Role text below the name */
+.member-role {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 0.6rem;
+}
+
+/* Bio paragraph */
+.member-bio {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+/* Gold mission box */
+.mission-block {
+    background: linear-gradient(135deg, #c79d42 0%, #efcb5d 100%);
+    border: 3px solid #c79d42;
+    border-radius: 4px;
+    padding: 2rem 2.5rem;
+}
+
+.mission-block p {
+    color: #fff;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* Contact section - info and form side by side */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.contact-desc {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+
+.contact-item {
+    font-size: 0.95rem;
+    color: #c79d42;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact form inputs */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.7rem 0.9rem;
+    border: 3px solid #c79d42;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: "placa", sans-serif;
+    font-weight: 700;
+    color: #333;
+    background: #fffdf5;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #efcb5d;
+}
