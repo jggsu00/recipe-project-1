@@ -16,7 +16,7 @@
     <main>
         <h1 class="page-title">Recipe Details</h1> 
 
-        <!-- Carbonara -->
+        <!-- Carbonara Details -->
             <div class="recipe-detail" id="carbonara">     
             <div class="hero">               
                 <div class="hero-info">             
@@ -70,30 +70,81 @@
             </div>
             
             <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
             <div class="model-grid">                 
-                <div class="method-card">                     
-                    <span class="rec-badge">&#11088; Recommended</span>                     
-                    <h3>Stovetop</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m1">                     
+                    <label class="flip-label" for="c-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Most traditional method</li>                                 
+                                <li>Best texture control</li>                                 
+                                <li>Fast &mdash; 25 mins total</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Instant Pot</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m2">                     
+                    <label class="flip-label" for="c-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Instant Pot</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Instant Pot</h3>                             
+                            <ul>                                 
+                                <li>Hands-off pasta cook</li>                                 
+                                <li>Less monitoring needed</li>                                 
+                                <li>One-pot cleanup</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Baked Version</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:40%"></div></div><span class="dim-val">40</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m3">                     
+                    <label class="flip-label" for="c-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Baked Version</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:40%"></div></div><span class="dim-val">40</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Baked Version</h3>                             
+                            <ul>                                 
+                                <li>Great for meal prep</li>                                 
+                                <li>Feeds a crowd easily</li>                                 
+                                <li>Reheats well next day</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>             
             </div>         
         </div>
 
-        <!-- Salmon -->
+
+
+        <!-- Salmon Details -->
          <div class="recipe-detail" id="salmon">             
             <div class="hero">                             
                 <div class="hero-info">                     
@@ -147,30 +198,81 @@
             </div>    
                      
             <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
             <div class="model-grid">                 
-                <div class="method-card">                     
-                    <span class="rec-badge">&#11088; Recommended</span>                     
-                    <h3>Pan Sear</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m1">                     
+                    <label class="flip-label" for="s-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Pan Sear</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Pan Sear</h3>                             
+                            <ul>                                 
+                                <li>Best caramelization</li>                                 
+                                <li>Crispy skin every time</li>                                 
+                                <li>Done in under 10 mins</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Baked</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:60%"></div></div><span class="dim-val">60</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m2">                     
+                    <label class="flip-label" for="s-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Baked</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:60%"></div></div><span class="dim-val">60</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Baked</h3>                             
+                            <ul>                                 
+                                <li>Very hands-off</li>                                 
+                                <li>Even cook throughout</li>                                 
+                                <li>Great for larger portions</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Air Fryer</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:82%"></div></div><span class="dim-val">82</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m3">                     
+                    <label class="flip-label" for="s-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Air Fryer</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:82%"></div></div><span class="dim-val">82</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Air Fryer</h3>                             
+                            <ul>                                 
+                                <li>Crispy without much oil</li>                                 
+                                <li>Easy cleanup</li>                                 
+                                <li>Slightly drier texture</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>             
             </div>         
         </div>
          
-        <!-- Tacos -->
+
+
+        <!-- Taco Details -->
         <div class="recipe-detail" id="tacos">             
             <div class="hero">                                  
                 <div class="hero-info">                     
@@ -226,30 +328,81 @@
             </div>      
 
             <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
             <div class="model-grid">                 
-                <div class="method-card">                     
-                    <span class="rec-badge">&#11088; Recommended</span>                     
-                    <h3>Stovetop</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:93%"></div></div><span class="dim-val">93</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m1">                     
+                    <label class="flip-label" for="t-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:93%"></div></div><span class="dim-val">93</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Best browning control</li>                                 
+                                <li>Quick and easy</li>                                 
+                                <li>Most traditional method</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Slow Cooker</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:20%"></div></div><span class="dim-val">20</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m2">                     
+                    <label class="flip-label" for="t-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Slow Cooker</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:20%"></div></div><span class="dim-val">20</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Slow Cooker</h3>                             
+                            <ul>                                 
+                                <li>Set it and forget it</li>                                 
+                                <li>Very tender meat</li>                                 
+                                <li>Needs 6&ndash;8 hours</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Sheet Pan</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:55%"></div></div><span class="dim-val">55</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m3">                     
+                    <label class="flip-label" for="t-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Sheet Pan</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:55%"></div></div><span class="dim-val">55</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Sheet Pan</h3>                             
+                            <ul>                                 
+                                <li>Easy cleanup</li>                                 
+                                <li>Good for large batches</li>                                 
+                                <li>Less char than stovetop</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>             
             </div>         
         </div>
 
-        <!-- Tikka -->
+
+
+        <!-- Tikka Details -->
          <div class="recipe-detail" id="tikka">             
             <div class="hero">                            
                 <div class="hero-info">                     
@@ -307,25 +460,74 @@
             </div>             
             
             <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
             <div class="model-grid">                 
-                <div class="method-card">                     
-                    <span class="rec-badge">&#11088; Recommended</span>                     
-                    <h3>Stovetop</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m1">                     
+                    <label class="flip-label" for="tk-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Best flavor development</li>                                 
+                                <li>Full control over sauce</li>                                 
+                                <li>Classic technique</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Instant Pot</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m2">                     
+                    <label class="flip-label" for="tk-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Instant Pot</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Instant Pot</h3>                             
+                            <ul>                                 
+                                <li>Faster cook time</li>                                 
+                                <li>Very tender chicken</li>                                 
+                                <li>Slightly less charred</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>                 
-                <div class="method-card">                     
-                    <h3>Slow Cooker</h3>                     
-                    <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:25%"></div></div><span class="dim-val">25</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                     
-                    <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m3">                     
+                    <label class="flip-label" for="tk-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Slow Cooker</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:25%"></div></div><span class="dim-val">25</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Slow Cooker</h3>                             
+                            <ul>                                 
+                                <li>Great for meal prep</li>                                 
+                                <li>Very hands-off</li>                                 
+                                <li>Needs 6&ndash;8 hours</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
                 </div>             
             </div>         
         </div>

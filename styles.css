@@ -323,18 +323,96 @@ body:has(#tikka:target) #carbonara {
     max-width: 960px;
 }
 
-.method-card {
-    border: 2px solid #e0c97a;
+.flip-card {
+    height: 220px;
+    perspective: 1000px;
+}
+
+.flip-card input[type="checkbox"] {
+    display: none;
+}
+
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flip-card input[type="checkbox"]:checked ~ .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     border-radius: 10px;
     padding: 1.2rem;
+}
+
+.flip-front {
+    border: 2px solid #e0c97a;
     background: #fffdf5;
 }
 
-.method-card h3 {
+.flip-back {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, #c79d42, #efcb5d);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flip-front h3 {
     font-size: 1.1rem;
     color: #c79d42;
     text-transform: uppercase;
     margin-bottom: 1rem;
+}
+
+.flip-back h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+    color: #fff;
+}
+
+.flip-back ul {
+    padding-left: 1.1rem;
+    margin: 0;
+}
+
+.flip-back li {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+}
+
+.flip-label {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.flip-hint {
+    font-size: 0.68rem;
+    color: #bbb;
+    text-align: center;
+    margin-top: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.flip-back .flip-hint {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.8rem;
 }
 
 .dim-row {
