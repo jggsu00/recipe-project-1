@@ -133,6 +133,28 @@ h1.page-title {
     text-transform: uppercase;
 }
 
+.btn-back {             
+    display: inline-flex;             
+    align-items: center;             
+    gap: 0.4rem;             
+    margin-bottom: 1.5rem;             
+    color: var(--gold-primary, #c79d42);             
+    text-decoration: none;             
+    font-size: 1rem;             
+    text-transform: uppercase;             
+    letter-spacing: 0.06em;                
+    transition: color 0.2s;         
+}
+
+.btn-back:hover { 
+    color: var(--gold-dark, #a07830); 
+}
+
+.btn-back::before { 
+    content: "\2190"; 
+    font-size: 1rem; 
+}
+
 .recipe-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
