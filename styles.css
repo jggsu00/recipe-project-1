@@ -1,4 +1,10 @@
-@import url("https://use.typekit.net/hdq3csw.css");
+/* Font */
+@font-face {
+    font-family: "Rowdies";
+    src: url("assets/fonts/Rowdies-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* Light Mode Properties */
 :root {
@@ -87,9 +93,7 @@ body:has(#dark-toggle:checked) .theme-toggle-label .toggle-thumb {
 
 /* Main / Navbar */
 body {
-    font-family: "placa", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "Rowdies", sans-serif;
 }
 
 #navbar {
@@ -218,8 +222,7 @@ h1.page-title {
     color: #c79d42;
     border: none;
     padding: .4rem .9rem;
-    font-family: "placa", sans-serif;
-    font-weight: 700;
+    font-family: "Rowdies", sans-serif;
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: .06em;

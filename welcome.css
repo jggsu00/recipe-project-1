@@ -1,11 +1,16 @@
-@import url("https://use.typekit.net/hdq3csw.css");
-
 /* Welcome Page */
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
 }
+
+@font-face {
+    font-family: "Rowdies";
+    src: url("assets/fonts/Rowdies-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    }
 
 body {
     box-sizing: border-box;
@@ -15,9 +20,7 @@ body {
     align-items: center;
 
     background: linear-gradient(to right, #c79d42, #efcb5d);
-    font-family: "placa", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "Rowdies", sans-serif;
 }
 
 #welcome {
