@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details - Golden Pantry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="checkbox" id="dark-toggle">
+    <header id = "navbar">             
+        <nav>RECIPES</nav>             
+        <a href="about.html">ABOUT</a>             
+        <a href="index.html">HOME</a>   
+        <label class="theme-toggle-label" for="dark-toggle">
+            <span class="toggle-track"><span class="toggle-thumb"></span>
+            </span>DARK
+        </label>   
+    </header>  
+
+    <main>
+        <h1 class="page-title">Recipe Details</h1> 
+
+        <!-- Carbonara Details -->
+            <div class="recipe-detail" id="carbonara">     
+            <div class="hero">               
+                <div class="hero-info">             
+                    <h1>Spaghetti Carbonara</h1>             
+                    <p>A rich Roman classic made with eggs, Pecorino Romano, crispy guanciale, and cracked black pepper. Creamy without a drop of cream &mdash; it's all technique.</p>             
+                    <div class="meta-badges">                 
+                        <span class="badge">30 min</span><span class="badge">Serves 4</span>                 
+                        <span class="badge">Italian</span><span class="badge">Medium</span>             
+                    </div>         
+                </div>     
+            </div>
+
+            <div class="section-title">Ingredients</div>     
+            <div class="checklist">         
+                <input type="checkbox" id="c-i1"><label for="c-i1">400g spaghetti</label>         
+                <input type="checkbox" id="c-i2"><label for="c-i2">150g guanciale</label>         
+                <input type="checkbox" id="c-i3"><label for="c-i3">4 egg yolks</label>         
+                <input type="checkbox" id="c-i4"><label for="c-i4">1 whole egg</label>         
+                <input type="checkbox" id="c-i5"><label for="c-i5">80g Pecorino Romano</label>         
+                <input type="checkbox" id="c-i6"><label for="c-i6">80g Parmesan</label>         
+                <input type="checkbox" id="c-i7"><label for="c-i7">Black pepper</label>         
+                <input type="checkbox" id="c-i8"><label for="c-i8">Salt</label>     
+            </div>      
+
+            <div class="section-title">Suggested Next Steps</div>     
+            <div class="rec-cards">         
+                <div class="rec-card">             
+                    <span class="step-label">Step 1</span><h3>Boil your pasta</h3>             
+                    <p>Salt a large pot generously and cook spaghetti 1 min under al dente &mdash; it'll finish in the pan.</p>             
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:98%"></div></div><span>98%</span></div>             
+                    <div class="conf-hint">&#9432; Based on 4 servings and standard pasta timing.</div>         
+                </div>         
+                <div class="rec-card">             
+                    <span class="step-label">Step 2</span><h3>Render the guanciale</h3>             
+                    <p>Cook on medium heat until fat is translucent and edges crisp. No oil needed.</p>             
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:91%"></div></div><span>91%</span></div>             
+                    <div class="conf-hint">&#9432; Confidence based on typical fat-render time at medium heat.</div>         
+                </div>         
+                <div class="rec-card">             
+                    <span class="step-label">Step 3</span><h3>Temper the egg mix</h3>             
+                    <p>Whisk yolks, egg, and cheese. Add a ladle of pasta water slowly before combining with pasta.</p>             
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:87%"></div></div><span>87%</span></div>             
+                    <div class="conf-hint">&#9432; Lower confidence &mdash; tempering is technique-sensitive.</div>         
+                </div>         
+                <div class="rec-card">             
+                    <span class="step-label">Step 4</span><h3>Toss off heat</h3>             
+                    <p>Remove pan from heat before adding egg mixture. Toss fast &mdash; residual heat does the work.</p>             
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:94%"></div></div><span>94%</span></div>             
+                    <div class="conf-hint">&#9432; Off-heat finish prevents scrambling &mdash; high reliability.</div>         
+                </div>     
+            </div>
+            
+            <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
+            <div class="model-grid">                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m1">                     
+                    <label class="flip-label" for="c-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Most traditional method</li>                                 
+                                <li>Best texture control</li>                                 
+                                <li>Fast &mdash; 25 mins total</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m2">                     
+                    <label class="flip-label" for="c-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Instant Pot</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Instant Pot</h3>                             
+                            <ul>                                 
+                                <li>Hands-off pasta cook</li>                                 
+                                <li>Less monitoring needed</li>                                 
+                                <li>One-pot cleanup</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="c-m3">                     
+                    <label class="flip-label" for="c-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Baked Version</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:40%"></div></div><span class="dim-val">40</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:70%"></div></div><span class="dim-val">70</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Baked Version</h3>                             
+                            <ul>                                 
+                                <li>Great for meal prep</li>                                 
+                                <li>Feeds a crowd easily</li>                                 
+                                <li>Reheats well next day</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>
+
+
+
+        <!-- Salmon Details -->
+         <div class="recipe-detail" id="salmon">             
+            <div class="hero">                             
+                <div class="hero-info">                     
+                    <h1>Honey Garlic Salmon</h1>                     
+                    <p>Pan-seared salmon glazed with honey, garlic, and soy sauce. Flaky, caramelized, and on the table in under 20 minutes.</p>                     
+                    <div class="meta-badges">                         
+                        <span class="badge">20 min</span><span class="badge">Serves 2</span>                         
+                        <span class="badge">Seafood</span><span class="badge">Easy</span>                     
+                    </div>                 
+                </div>             
+            </div>            
+
+            <div class="section-title">Ingredients</div>             
+            <div class="checklist">                 
+                <input type="checkbox" id="s-i1"><label for="s-i1">2 salmon fillets</label>                 
+                <input type="checkbox" id="s-i2"><label for="s-i2">3 tbsp honey</label>                 
+                <input type="checkbox" id="s-i3"><label for="s-i3">3 garlic cloves</label>                 
+                <input type="checkbox" id="s-i4"><label for="s-i4">2 tbsp soy sauce</label>                 
+                <input type="checkbox" id="s-i5"><label for="s-i5">1 tbsp olive oil</label>                 
+                <input type="checkbox" id="s-i6"><label for="s-i6">1 tsp lemon juice</label>                 
+                <input type="checkbox" id="s-i7"><label for="s-i7">Salt &amp; black pepper</label>                 
+                <input type="checkbox" id="s-i8"><label for="s-i8">Fresh parsley</label>             
+            </div>      
+
+            <div class="section-title">Suggested Next Steps</div>             
+            <div class="rec-cards">                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 1</span><h3>Pat the salmon dry</h3>                     
+                    <p>Drying the surface is the key to a good sear. Press with paper towels for at least 30 seconds per side.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:96%"></div></div><span>96%</span></div>                     
+                    <div class="conf-hint">&#9432; Dry surface = better Maillard reaction. High confidence.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 2</span><h3>Make the glaze</h3>                     
+                    <p>Whisk honey, soy, garlic, and lemon in a small bowl before you start cooking.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:99%"></div></div><span>99%</span></div>                     
+                    <div class="conf-hint">&#9432; Simple ratio &mdash; very reliable.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 3</span><h3>Sear skin-side first</h3>                     
+                    <p>Hot skillet, 4 mins skin down without moving. It will release when ready &mdash; don't force it.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:88%"></div></div><span>88%</span></div>                     
+                    <div class="conf-hint">&#9432; Timing varies slightly by fillet thickness.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 4</span><h3>Add glaze &amp; baste</h3>                     
+                    <p>Flip, pour glaze over, and spoon back on top every 30 seconds for 2 minutes until caramelized.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:92%"></div></div><span>92%</span></div>                     
+                    <div class="conf-hint">&#9432; Caramelization depends on pan temp &mdash; medium-high recommended.</div>                 
+                </div>             
+            </div>    
+                     
+            <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
+            <div class="model-grid">                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m1">                     
+                    <label class="flip-label" for="s-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Pan Sear</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Pan Sear</h3>                             
+                            <ul>                                 
+                                <li>Best caramelization</li>                                 
+                                <li>Crispy skin every time</li>                                 
+                                <li>Done in under 10 mins</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m2">                     
+                    <label class="flip-label" for="s-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Baked</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:60%"></div></div><span class="dim-val">60</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Baked</h3>                             
+                            <ul>                                 
+                                <li>Very hands-off</li>                                 
+                                <li>Even cook throughout</li>                                 
+                                <li>Great for larger portions</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="s-m3">                     
+                    <label class="flip-label" for="s-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Air Fryer</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:80%"></div></div><span class="dim-val">80</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:82%"></div></div><span class="dim-val">82</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Air Fryer</h3>                             
+                            <ul>                                 
+                                <li>Crispy without much oil</li>                                 
+                                <li>Easy cleanup</li>                                 
+                                <li>Slightly drier texture</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>
+         
+
+
+        <!-- Taco Details -->
+        <div class="recipe-detail" id="tacos">             
+            <div class="hero">                                  
+                <div class="hero-info">                     
+                    <h1>Classic Beef Tacos</h1>                     
+                    <p>Seasoned ground beef piled into warm tortillas with shredded cheese, fresh salsa, and a squeeze of lime.</p>                     
+                    <div class="meta-badges">                         
+                        <span class="badge">25 min</span><span class="badge">Serves 4</span>                         
+                        <span class="badge">Mexican</span><span class="badge">Easy</span>                     
+                    </div>                 
+                </div>             
+            </div>      
+
+            <div class="section-title">Ingredients</div>             
+            <div class="checklist">                 
+                <input type="checkbox" id="t-i1"><label for="t-i1">500g ground beef</label>                 
+                <input type="checkbox" id="t-i2"><label for="t-i2">8 corn tortillas</label>                 
+                <input type="checkbox" id="t-i3"><label for="t-i3">1 tsp cumin</label>                 
+                <input type="checkbox" id="t-i4"><label for="t-i4">1 tsp chili powder</label>                 
+                <input type="checkbox" id="t-i5"><label for="t-i5">1/2 tsp garlic powder</label>                 
+                <input type="checkbox" id="t-i6"><label for="t-i6">Shredded cheese</label>                 
+                <input type="checkbox" id="t-i7"><label for="t-i7">Fresh salsa</label>                 
+                <input type="checkbox" id="t-i8"><label for="t-i8">Lime wedges</label>                 
+                <input type="checkbox" id="t-i9"><label for="t-i9">Sour cream</label>                 
+                <input type="checkbox" id="t-i10"><label for="t-i10">Cilantro</label>             
+            </div>             
+            
+            <div class="section-title">Suggested Next Steps</div>             
+            <div class="rec-cards">                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 1</span><h3>Season the beef</h3>                     
+                    <p>Mix cumin, chili powder, garlic powder, and salt together before adding to the pan.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:99%"></div></div><span>99%</span></div>                     
+                    <div class="conf-hint">&#9432; Standard taco seasoning ratio &mdash; very reliable.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 2</span><h3>Brown the meat</h3>                     
+                    <p>Cook over medium-high, breaking it apart. Don't rush &mdash; let it brown, not steam.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:93%"></div></div><span>93%</span></div>                     
+                    <div class="conf-hint">&#9432; Browning improves flavor significantly. Based on typical pan size.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 3</span><h3>Warm the tortillas</h3>                     
+                    <p>30 seconds per side on a dry skillet, or wrap in a damp paper towel and microwave 45 seconds.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:97%"></div></div><span>97%</span></div>                     
+                    <div class="conf-hint">&#9432; Both methods tested &mdash; high reliability.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 4</span><h3>Assemble &amp; serve</h3>                     
+                    <p>Beef first, then cheese so it melts slightly, then cold toppings. Lime goes on last.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:95%"></div></div><span>95%</span></div>                     
+                    <div class="conf-hint">&#9432; Order of assembly affects texture and temperature balance.</div>                 
+                </div>             
+            </div>      
+
+            <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
+            <div class="model-grid">                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m1">                     
+                    <label class="flip-label" for="t-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:93%"></div></div><span class="dim-val">93</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Best browning control</li>                                 
+                                <li>Quick and easy</li>                                 
+                                <li>Most traditional method</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m2">                     
+                    <label class="flip-label" for="t-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Slow Cooker</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:20%"></div></div><span class="dim-val">20</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Slow Cooker</h3>                             
+                            <ul>                                 
+                                <li>Set it and forget it</li>                                 
+                                <li>Very tender meat</li>                                 
+                                <li>Needs 6&ndash;8 hours</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="t-m3">                     
+                    <label class="flip-label" for="t-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Sheet Pan</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:55%"></div></div><span class="dim-val">55</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Sheet Pan</h3>                             
+                            <ul>                                 
+                                <li>Easy cleanup</li>                                 
+                                <li>Good for large batches</li>                                 
+                                <li>Less char than stovetop</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>
+
+
+
+        <!-- Tikka Details -->
+         <div class="recipe-detail" id="tikka">             
+            <div class="hero">                            
+                <div class="hero-info">                     
+                    <h1>Chicken Tikka Masala</h1>                     
+                    <p>Tender chicken in a bold, spiced tomato-cream sauce. Best served over basmati rice or scooped up with warm naan.</p>                     
+                    <div class="meta-badges">                         
+                        <span class="badge">45 min</span><span class="badge">Serves 4</span>                         
+                        <span class="badge">Indian</span><span class="badge">Medium</span>                     
+                    </div>                 
+                </div>             
+            </div>             
+            
+            <div class="section-title">Ingredients</div>             
+            <div class="checklist">                 
+                <input type="checkbox" id="tk-i1"><label for="tk-i1">700g chicken breast</label>                 
+                <input type="checkbox" id="tk-i2"><label for="tk-i2">1 cup plain yogurt</label>                 
+                <input type="checkbox" id="tk-i3"><label for="tk-i3">2 tsp garam masala</label>                 
+                <input type="checkbox" id="tk-i4"><label for="tk-i4">1 tsp turmeric</label>                 
+                <input type="checkbox" id="tk-i5"><label for="tk-i5">1 tsp cumin</label>                 
+                <input type="checkbox" id="tk-i6"><label for="tk-i6">400ml crushed tomatoes</label>                 
+                <input type="checkbox" id="tk-i7"><label for="tk-i7">200ml heavy cream</label>                 
+                <input type="checkbox" id="tk-i8"><label for="tk-i8">1 onion</label>                 
+                <input type="checkbox" id="tk-i9"><label for="tk-i9">4 garlic cloves</label>                 
+                <input type="checkbox" id="tk-i10"><label for="tk-i10">1 tbsp fresh ginger</label>                 
+                <input type="checkbox" id="tk-i11"><label for="tk-i11">2 tbsp butter</label>                 
+                <input type="checkbox" id="tk-i12"><label for="tk-i12">Fresh cilantro</label>             
+            </div>             
+            
+            <div class="section-title">Suggested Next Steps</div>             
+            <div class="rec-cards">                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 1</span><h3>Marinate the chicken</h3>                     
+                    <p>Mix yogurt, half the spices, salt, and chicken. Marinate at least 1 hour &mdash; overnight is best.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:85%"></div></div><span>85%</span></div>                     
+                    <div class="conf-hint">&#9432; Longer marination = deeper flavor. Lower confidence for short marination.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 2</span><h3>Char the chicken</h3>                     
+                    <p>Grill or broil on high to get some char. This smokiness is what makes tikka tikka.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:90%"></div></div><span>90%</span></div>                     
+                    <div class="conf-hint">&#9432; Char level depends on your specific heat source.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 3</span><h3>Build the masala</h3>                     
+                    <p>Saute onion until golden, add garlic and ginger, then spices, then tomatoes. Simmer 15 mins.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:94%"></div></div><span>94%</span></div>                     
+                    <div class="conf-hint">&#9432; Bloom spices in fat before liquid for best flavor extraction.</div>                 
+                </div>                 
+                <div class="rec-card">                     
+                    <span class="step-label">Step 4</span><h3>Combine &amp; finish</h3>                     
+                    <p>Add charred chicken and cream. Simmer 10 mins. Taste and adjust salt. Garnish with cilantro.</p>                     
+                    <div class="confidence"><span>Confidence</span><div class="conf-bar-wrap"><div class="conf-bar" style="width:96%"></div></div><span>96%</span></div>                     
+                    <div class="conf-hint">&#9432; Final simmer melds all flavors &mdash; don't skip it.</div>                 
+                </div>             
+            </div>             
+            
+            <div class="section-title">Cooking Method Comparison</div>             
+            <p style="color:#888;font-size:.85rem;margin-bottom:1rem;">Click a card to flip and see details.</p>             
+            <div class="model-grid">                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m1">                     
+                    <label class="flip-label" for="tk-m1"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <span class="rec-badge">&#11088; Recommended</span>                             
+                            <h3>Stovetop</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:75%"></div></div><span class="dim-val">75</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:95%"></div></div><span class="dim-val">95</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:90%"></div></div><span class="dim-val">90</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Stovetop</h3>                             
+                            <ul>                                 
+                                <li>Best flavor development</li>                                 
+                                <li>Full control over sauce</li>                                 
+                                <li>Classic technique</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m2">                     
+                    <label class="flip-label" for="tk-m2"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Instant Pot</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:88%"></div></div><span class="dim-val">88</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Instant Pot</h3>                             
+                            <ul>                                 
+                                <li>Faster cook time</li>                                 
+                                <li>Very tender chicken</li>                                 
+                                <li>Slightly less charred</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>                 
+                <div class="flip-card">                     
+                    <input type="checkbox" id="tk-m3">                     
+                    <label class="flip-label" for="tk-m3"></label>                     
+                    <div class="flip-inner">                         
+                        <div class="flip-front">                             
+                            <h3>Slow Cooker</h3>                             
+                            <div class="dim-row"><span class="dim-label">Speed</span><div class="dim-track"><div class="dim-fill" style="width:25%"></div></div><span class="dim-val">25</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Quality</span><div class="dim-track"><div class="dim-fill" style="width:85%"></div></div><span class="dim-val">85</span></div>                             
+                            <div class="dim-row"><span class="dim-label">Cost</span><div class="dim-track"><div class="dim-fill" style="width:92%"></div></div><span class="dim-val">92</span></div>                             
+                            <div class="flip-hint">Tap to see details &rarr;</div>                         
+                        </div>                         
+                        <div class="flip-back">                             
+                            <h3>Slow Cooker</h3>                             
+                            <ul>                                 
+                                <li>Great for meal prep</li>                                 
+                                <li>Very hands-off</li>                                 
+                                <li>Needs 6&ndash;8 hours</li>                             
+                            </ul>                             
+                            <div class="flip-hint">Tap to flip back</div>                         
+                        </div>                     
+                    </div>                 
+                </div>             
+            </div>         
+        </div>
+
+    </main>
+</body>
+</html>
